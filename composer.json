@@ -1,18 +1,18 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "datikken/unit-conversions",
+    "description": "unit-conversions",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "datikken",
+        "unit-conversions"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/datikken/unit-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_homepage",
-            "role": "Developer"
+            "name": "datikken",
+            "email": "tikken23@gmail.com",
+            "homepage": "https://jsux.fun",
+            "role": "Owner"
         }
     ],
     "require": {
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Datikken\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Datikken\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,11 +47,11 @@
     "funding": [
         {
             "type": "github",
-            "url": "https://github.com/sponsors/:vendor_name"
+            "url": "https://github.com/sponsors/datikken"
         },
         {
             "type": "other",
-            "url": ":author_homepage"
+            "url": "https://jsux.fun"
         }
     ]
 }

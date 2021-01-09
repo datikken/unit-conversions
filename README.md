@@ -1,10 +1,9 @@
-# :package_description
+# unit-conversions
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor_name/:package_name.svg?style=flat-square)](https://packagist.org/packages/:vendor_name/:package_name)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/:vendor_name/:package_name/Tests?label=tests)](https://github.com/:vendor_name/:package_name/actions?query=workflow%3ATests+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/:vendor_name/:package_name.svg?style=flat-square)](https://packagist.org/packages/:vendor_name/:package_name)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/datikken/unit-conversions.svg?style=flat-square)](https://packagist.org/packages/datikken/unit-conversions)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/datikken/unit-conversions/Tests?label=tests)](https://github.com/datikken/unit-conversions/actions?query=workflow%3ATests+branch%3Amaster)
+[![Total Downloads](https://img.shields.io/packagist/dt/datikken/unit-conversions.svg?style=flat-square)](https://packagist.org/packages/datikken/unit-conversions)
 
-**Note:** Run `./configure-skeleton` to get started, or manually replace ```:author_name``` ```:author_username``` ```:author_email``` ```:vendor_name``` ```:package_name``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](.github/CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line. 
 
 This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
 
@@ -21,14 +20,14 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You can install the package via composer:
 
 ```bash
-composer require :vendor_name/:package_name
+composer require datikken/unit-conversions
 ```
 
 ## Usage
 
 ```php
-$skeleton = new Spatie\Skeleton();
-echo $skeleton->echoPhrase('Hello, Spatie!');
+$skeleton = new Datikken\UnitConversions();
+echo $skeleton->echoPhrase('Hello, Datikken!');
 ```
 
 ## Testing
@@ -51,7 +50,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [datikken](https://github.com/datikken)
 - [All Contributors](../../contributors)
 
 ## License
