@@ -18,7 +18,7 @@ class Temperature
      */
     public function __construct(float $celcius)
     {
-        $this->celcius = $celcius;
+        $this-> celcius = $celcius;
     }
 
     public function toFahrenheit(): float

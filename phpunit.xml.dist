@@ -15,7 +15,11 @@
             <directory>tests</directory>
         </testsuite>
     </testsuites>
-    <coverage>
+    <coverage includeUncoveredFiles="true"
+              processUncoveredFiles="true"
+              pathCoverage="true"
+              ignoreDeprecatedCodeUnits="true"
+    >
         <include>
             <directory suffix=".php">./src</directory>
         </include>
